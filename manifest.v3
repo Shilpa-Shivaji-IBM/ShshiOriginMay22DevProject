@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmJDBCAdapter">10.3.0.0.34</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">6</value>
   <null name="description"/>
   <value name="created_date">22-05-2025 10:03:23 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-05-22T10:07:42.648897512Z</value>
+  <value name="lastUpdated">2025-05-22T10:07:58.399160828Z</value>
   <value name="wmProjectId">fl914af7e510f6fca863a23d</value>
   <value name="creator">sephali smrutisikha</value>
 </Values>
